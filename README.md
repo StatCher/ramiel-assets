@@ -1,7 +1,9 @@
 # Ramiel runtime assets
 
-Public geometry, textures and audio used by the private Ramiel Starfall project. This repository contains no Lua chip code or authentication tokens. The in-game loader uses a pinned Git commit and validates each asset with SHA-256.
+Public data-only assets for the privately maintained Ramiel Starfall chip.
 
-Custom geometry and effects were prepared for this project. Kenney Particle Pack textures are CC0; terrain derivatives use CC0 sources. Anime audio was supplied as a reference by the user and is not CC0. See SOURCES.md for attribution. Do not assume the audio or every file is freely licensed.
+Version folders 0.0.18, 0.0.19 and 0.0.20 are immutable once released. Each manifest lists filename, byte length and SHA-256; the chip pins its URL to the corresponding Git commit.
 
-Version 0.0.19 adds independent flight/transformation data, yellow energy and an original seamless spherical-wind texture. No executable Lua is published. Existing 0.0.18 URLs remain unchanged.
+0.0.20 contains 67 files: geometry, images and original audio. Wind masks derive from n4 Whirlwind for effects (CC0); lava textures derive from ambientCG Lava001 (CC0). See SOURCES.md for full attribution and separate audio rights.
+
+No Lua source, credentials or authentication tokens are included. The private chip downloads only verified data; it never executes downloaded Lua.
