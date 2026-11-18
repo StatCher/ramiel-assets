@@ -21,3 +21,5 @@
 - Blender экспорт/ограничения форматов: https://docs.blender.org/manual/en/latest/addons/import_export/scene_gltf2.html. Проект использует собственный формат rigid clip, а не стандартный glTF runtime.
 
 Файлы из `reference`, `installed`, скачанные видеореференсы и сторонний исходник катаны исключены из Git.
+
+0.0.19: original procedural geometry for one-side inset/shorter spikes and vfx_wind.png; vfx_beam.png uses the same credited Kenney CC0 source with yellow RGB. Other textures and the original user-referenced anime audio retain their previous attribution and rights. No chip source code is included.
